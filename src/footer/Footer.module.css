@@ -1,0 +1,32 @@
+.footerBlock {
+  height: 25vh;
+  background-color: #f08cb3;
+}
+
+.footerContainer {
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.title {
+  background-color: lightgrey;
+}
+
+.socialsContainer {
+width: 80%;
+height: 50px;
+background-color: red;
+display: flex;
+justify-content: space-between;
+}
+
+.socialLink {
+width: 50px;
+height: 50px;
+background-color: grey;
+}
+
+.copyright {
+  text-align: center;
+}

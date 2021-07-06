@@ -1,0 +1,15 @@
+.remoteBlock {
+  height: 15vh;
+  background-color: #a19bf1;
+}
+
+.remoteContainer {
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.title {
+  background-color: lightgrey;
+  text-align: center;
+}
