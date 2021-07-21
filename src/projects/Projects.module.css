@@ -1,5 +1,4 @@
 .projectsBlock {
-  height: 80vh;
   background-color: #bed1b5;
 }
 
@@ -16,7 +15,8 @@
 .projects {
   border: 1px solid;
   width: 100%;
+
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   flex-wrap: wrap;
 }

@@ -1,5 +1,5 @@
 .remoteBlock {
-  height: 15vh;
+  /* min-height: 15vh; */
   background-color: #a19bf1;
 }
 
@@ -12,4 +12,8 @@
 .title {
   background-color: lightgrey;
   text-align: center;
+}
+
+.button {
+  margin-bottom: 20px;
 }
