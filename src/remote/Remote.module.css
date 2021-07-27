@@ -1,6 +1,6 @@
 .remoteBlock {
   /* min-height: 15vh; */
-  background-color: #a19bf1;
+  background-color: #54595F;
 }
 
 .remoteContainer {
@@ -9,9 +9,8 @@
   justify-content: space-between;
 }
 
-.title {
-  background-color: lightgrey;
-  text-align: center;
+.title h2{
+  margin: 15px 0 15px 0;
 }
 
 .button {

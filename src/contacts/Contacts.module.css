@@ -1,6 +1,6 @@
 .contactsBlock {
-  /* height: 40vh; */
-  background-color: #878d84;
+  /* max-width: 1366px; */
+  background-color:  #343a40;
 }
 
 .contactsContainer {
@@ -10,9 +10,9 @@
 
 }
 
-.title {
-  background-color: lightgrey;
-}
+.title h2 {
+  margin: 15px 0 15px 0;
+  }
 
 .formsContainer {
   width: 500px;
@@ -36,6 +36,6 @@
 
 @media screen and (max-width: 750px) {
   .formsContainer {
-    width: 90%;
+    width: 100%;
   }
  }

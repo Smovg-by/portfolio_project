@@ -6,10 +6,10 @@ export const Nav = () => {
   return (
     <div className={styleContainer.container}>
       <div className={style.navBlock}>
-        <a href='#'>Главная</a>
-        <a href='#'>Скилы</a>
-        <a href='#'>Проекты</a>
-        <a href='#'>Контакты</a>
+        <a href='#'>Main</a>
+        <a href='#'>Skills</a>
+        <a href='#'>Projects</a>
+        <a href='#'>Contact me</a>
       </div>
     </div>
   )

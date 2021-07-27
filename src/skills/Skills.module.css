@@ -1,6 +1,6 @@
 .skillsBlock {
   /* height: 100vh; */
-  background-color: #d4ffc0;
+  background-color: #54595F;
 }
 
 .skillsContainer {
@@ -9,9 +9,9 @@
   justify-content: flex-start;
 }
 
-.title {
-  background-color: lightgrey;
-}
+.title h2 {
+  margin: 15px 0 15px 0;
+  }
 
 .skills {
   border: 1px solid;

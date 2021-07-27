@@ -1,5 +1,5 @@
 .projectsBlock {
-  background-color: #bed1b5;
+  background-color:  #343a40;
 }
 
 .projectsContainer {
@@ -8,8 +8,8 @@
   justify-content: flex-start;
 }
 
-.title {
-  background-color: lightgrey;
+.title h2 {
+margin: 15px 0 15px 0;
 }
 
 .projects {

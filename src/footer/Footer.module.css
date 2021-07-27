@@ -1,6 +1,6 @@
 .footerBlock {
   /* height: 25vh; */
-  background-color: #f08cb3;
+  background-color: #54595F;
 }
 
 .footerContainer {
@@ -9,9 +9,9 @@
   justify-content: flex-start;
 }
 
-.title {
-  background-color: lightgrey;
-}
+.title h2 {
+  margin: 15px 0 15px 0;
+  }
 
 .socialsContainer {
 width: 500px;
@@ -34,6 +34,6 @@ background-color: grey;
 
 @media screen and (max-width: 750px) {
   .socialsContainer {
-    width: 90%;
+    width: 100%;
     }
  }

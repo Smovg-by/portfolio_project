@@ -1,7 +1,8 @@
 .skill {
   width: 250px;
   margin-bottom: 20px;
-  background-color: lightyellow;
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 30px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -13,3 +14,10 @@
   width: 60px;
   background-color: lightpink;
 }
+
+
+@media screen and (max-width: 600px) {
+  .skill {
+    width: 100%;
+    }
+ }

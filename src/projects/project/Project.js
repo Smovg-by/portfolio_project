@@ -6,10 +6,10 @@ export const Project = props => {
     <div className={style.project}>
       <div className={style.imageContainer}>
         <img src={props.img} alt='html project logo' className={style.image} />
-        <button className={style.butn}>Смотреть проект</button>
+        <button className={style.butn}>Check it out</button>
       </div>
-      <h3>{props.title}</h3>
-      <span className={style.description}>{props.description}</span>
+      <h4>{props.title}</h4>
+      <p className={style.description}>{props.description}</p>
     </div>
   )
 }
