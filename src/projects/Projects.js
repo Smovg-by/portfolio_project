@@ -1,6 +1,6 @@
 import React from 'react'
-import style from './Projects.module.css'
-import styleContainer from '../common/styles/Container.module.css'
+import style from './Projects.module.scss'
+import styleContainer from '../common/styles/Container.module.scss'
 import { Project } from './project/Project'
 import project_img1 from '../assets/img/html_project.jpg'
 import project_img2 from '../assets/img/react_project.jpg'

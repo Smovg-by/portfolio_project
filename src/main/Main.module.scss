@@ -1,0 +1,14 @@
+@import '../common/styles/sass/variables.scss';
+
+.mainBlock {
+  background-color:  $mainBGConlor_2;
+  .text {
+    max-width: 350px;
+    background-color: darkgrey;
+  }
+    .photo {
+    width: 300px;
+    height: 400px;
+    background-color: darkgrey;
+  }
+}

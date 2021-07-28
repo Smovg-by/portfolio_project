@@ -1,12 +1,11 @@
 import React from 'react'
-import style from './Project.module.css'
+import style from './Project.module.scss'
 
 export const Project = ({ title, description, img }) => {
   return (
     <div className={style.project}>
       <div className={style.imageContainer}>
         <img src={img} alt='html project logo' className={style.image} />
-        {/* <button className={style.butn}>Check it out</button> */}
         <div>
           <a className={style.button} href='#'>
             View

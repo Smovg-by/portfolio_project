@@ -1,6 +1,6 @@
 import React from 'react'
-import style from './Nav.module.css'
-import styleContainer from '../common/styles/Container.module.css'
+import style from './Nav.module.scss'
+import styleContainer from '../common/styles/Container.module.scss'
 
 export const Nav = () => {
   return (

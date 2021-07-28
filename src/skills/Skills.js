@@ -1,6 +1,6 @@
 import React from 'react'
-import style from './Skills.module.css'
-import styleContainer from '../common/styles/Container.module.css'
+import style from './Skills.module.scss'
+import styleContainer from '../common/styles/Container.module.scss'
 import { Skill } from './skill/Skill'
 import { Title } from '../common/components/title/Title'
 import ReactSkill from '../assets/icons/react_ico.png'
@@ -44,18 +44,6 @@ export const Skills = () => {
               />
             )
           })}
-          {/* <Skill
-            title={'JS'}
-            description={'Lorem ipsum dolor sit amet, consectetur adipiscing'}
-          />
-          <Skill
-            title={'CSS'}
-            description={'Lorem ipsum dolor sit amet, consectetur adipiscing'}
-          />
-          <Skill
-            title={'React'}
-            description={'Lorem ipsum dolor sit amet, consectetur adipiscing'}
-          /> */}
         </div>
       </div>
     </div>

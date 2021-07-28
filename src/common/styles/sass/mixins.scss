@@ -1,0 +1,19 @@
+@mixin text() {
+  font-family: 'Poppins', Helvetica, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+@mixin flex(
+  $flex: null,
+  $flexDirection: null,
+  $alignItems: null,
+  $jusifyContent: null,
+  $flexWrap: null
+) {
+  display: $flex;
+  flex-direction: $flexDirection;
+  align-items: $alignItems;
+  justify-content: $jusifyContent;
+  flex-wrap: $flexWrap;
+}

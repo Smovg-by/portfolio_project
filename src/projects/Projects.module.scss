@@ -1,0 +1,17 @@
+@import '../common/styles/sass/variables.scss';
+
+.projectsBlock {
+  background-color:  $mainBGConlor_2;
+  .projectsContainer {
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    .projects {
+      border: 1px solid;
+      width: 100%;
+      display: flex;
+      justify-content: space-evenly;
+      flex-wrap: wrap;
+    }
+  }
+}
