@@ -1,15 +1,20 @@
 import React from 'react'
 import style from './Project.module.css'
 
-export const Project = props => {
+export const Project = ({ title, description, img }) => {
   return (
     <div className={style.project}>
       <div className={style.imageContainer}>
-        <img src={props.img} alt='html project logo' className={style.image} />
-        <button className={style.butn}>Check it out</button>
+        <img src={img} alt='html project logo' className={style.image} />
+        {/* <button className={style.butn}>Check it out</button> */}
+        <div>
+          <a className={style.button} href='#'>
+            View
+          </a>
+        </div>
       </div>
-      <h4>{props.title}</h4>
-      <p className={style.description}>{props.description}</p>
+      <h4>{title}</h4>
+      <p className={style.description}>{description}</p>
     </div>
   )
 }

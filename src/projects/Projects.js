@@ -2,9 +2,22 @@ import React from 'react'
 import style from './Projects.module.css'
 import styleContainer from '../common/styles/Container.module.css'
 import { Project } from './project/Project'
-import html_project_img1 from '../assets/img/html_project.jpg'
-import html_project_img2 from '../assets/img/react_project.jpg'
+import project_img1 from '../assets/img/html_project.jpg'
+import project_img2 from '../assets/img/react_project.jpg'
 import { Title } from '../common/components/title/Title.jsx'
+
+const projects = [
+  {
+    title: 'TodoList',
+    description: 'See how I did my best todolist ever',
+    img: project_img1
+  },
+  {
+    title: 'Social network',
+    description: 'The social network you must join in!',
+    img: project_img2
+  }
+]
 
 export const Projects = () => {
   return (
@@ -12,16 +25,15 @@ export const Projects = () => {
       <div className={`${styleContainer.container} ${style.projectsContainer}`}>
         <Title title={'Projects'} />
         <div className={style.projects}>
-          <Project
-            title={'Project1'}
-            description={'Lorem ipsum dolor sit amet, consectetur adipiscing'}
-            img={html_project_img1}
-          />
-          <Project
-            title={'Project2'}
-            description={'Lorem ipsum dolor sit amet, consectetur adipiscing'}
-            img={html_project_img2}
-          />
+          {projects.map(item => {
+            return (
+              <Project
+                title={item.title}
+                description={item.description}
+                img={item.img}
+              />
+            )
+          })}
         </div>
       </div>
     </div>

@@ -8,7 +8,11 @@ export const Remote = () => {
     <div className={style.remoteBlock}>
       <div className={`${styleContainer.container} ${style.remoteContainer}`}>
         <Title title={'Ready for remote job offers'} />
-        <button className={style.button}>Hire me!</button>
+        <div>
+          <a className={style.button} href='#'>
+            Hire me
+          </a>
+        </div>
       </div>
     </div>
   )
