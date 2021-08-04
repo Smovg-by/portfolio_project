@@ -1,9 +1,9 @@
-
-
-
 .navBlock {
-  border: 1px solid red;
-  width: 300px;
+  width: 80vw;
   display: flex;
   justify-content: space-between;
+}
+
+.navLink {
+  margin: 0 5px 0 5px;
 }

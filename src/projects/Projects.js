@@ -10,12 +10,12 @@ const projects = [
   {
     title: 'TodoList',
     description: 'See how I did my best todolist ever',
-    img: project_img1
+    style: { backgroundImage: `url(${project_img1})` }
   },
   {
     title: 'Social network',
     description: 'The social network you must join in!',
-    img: project_img2
+    style: { backgroundImage: `url(${project_img2})` }
   }
 ]
 
@@ -30,7 +30,7 @@ export const Projects = () => {
               <Project
                 title={item.title}
                 description={item.description}
-                img={item.img}
+                style={item.style}
               />
             )
           })}
