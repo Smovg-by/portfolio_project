@@ -1,14 +1,42 @@
 @import '../common/styles/sass/variables.scss';
+@import '../common/styles/Button.module';
 
 .mainBlock {
-  background-color:  $mainBGConlor_2;
+  background-color: $mainBGConlor_2;
+  position: relative;
+
   .text {
-    max-width: 350px;
-    background-color: darkgrey;
+    max-width: 400px;
   }
-    .photo {
+
+  h1 {
+    margin: 0 0 20px 0;
+  }
+
+  p {
+    margin: 0 0 20px 0;
+  }
+
+  .photo {
     width: 300px;
-    height: 400px;
-    background-color: darkgrey;
+    height: 300px;
+    margin: 30px 0 30px 0;
+    border: 18px solid #333333;
+    border-radius: 50%;
+    background-image: url('../assets/img/author.jpg');
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0 0 25px 0 rgb(0 0 0 / 80%);
   }
+
+  .buttonsContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+}
+
+.accentColor {
+  border-color: $accentColor_1;
 }

@@ -1,9 +1,16 @@
+@import '../common/styles/sass/variables';
+
 .navBlock {
-  width: 80vw;
+  min-width: 80%;
   display: flex;
   justify-content: space-between;
-}
 
-.navLink {
-  margin: 0 5px 0 5px;
+  .navLink {
+    margin: 0 20px;
+    text-decoration: none;
+
+    &:hover {
+      color: $accentColor_1;
+    }
+  }
 }

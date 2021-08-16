@@ -18,6 +18,9 @@ export const Nav = () => {
         <a href='#' className={styles.navLink}>
           Contact me
         </a>
+        <a href='#' className={styles.navLink}>
+          Social media
+        </a>
       </div>
     </div>
   )

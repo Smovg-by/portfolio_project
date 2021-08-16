@@ -1,0 +1,14 @@
+@import 'sass/variables';
+
+.button {
+  white-space: nowrap;
+  display: inline-block;
+  border: 2px solid $accentColor_2;
+  border-radius: 30px;
+  box-shadow: rgba(0, 0, 0, 0.78) 0 10px 10px -8px;
+  cursor: pointer;
+  padding: 0.8em 2.1em 0.8em 2.1em;
+  margin: 0 0 0.75em 0;
+  text-decoration: none;
+  color: $accentColor_2;
+}

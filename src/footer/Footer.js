@@ -7,30 +7,34 @@ import GithubIco from '../assets/icons/github_ico.png'
 import LinkedInIco from '../assets/icons/linkedin_ico.png'
 import FaceBookIco from '../assets/icons/facebook_ico.png'
 import CodewarsIco from '../assets/icons/codewars_ico.png'
+import {v1} from "uuid";
 
 const socials = [
   {
+    id: v1(),
     title: 'GitHUB',
-    style: { backgroundImage: `url(${GithubIco})` },
+    style: {backgroundImage: `url(${GithubIco})`},
     link: 'https://github.com/Smovg-by',
   },
   {
+    id: v1(),
     title: 'Codewars',
-    style: { backgroundImage: `url(${CodewarsIco})` },
+    style: {backgroundImage: `url(${CodewarsIco})`},
     link: 'https://github.com/Smovg-by',
   },
   {
+    id: v1(),
     title: 'LinkedIn',
-    style: { backgroundImage: `url(${LinkedInIco})` },
+    style: {backgroundImage: `url(${LinkedInIco})`},
     link: 'https://github.com/Smovg-by',
   },
   {
+    id: v1(),
     title: 'Facebook',
-    style: { backgroundImage: `url(${FaceBookIco})` },
+    style: {backgroundImage: `url(${FaceBookIco})`},
     link: 'https://github.com/Smovg-by',
   },
 ]
-
 
 export const Footer = () => {
   return (
@@ -40,10 +44,10 @@ export const Footer = () => {
         <div className={style.socialsContainer}>
           {socials.map((social) => {
             return (
-              <Social
-                title={social.title}
-                style={social.style}
-                link={social.link}
+              <Social key={social.id}
+                      title={social.title}
+                      style={social.style}
+                      link={social.link}
               />
             )
           })}
